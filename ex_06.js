@@ -8,8 +8,6 @@ function getIndexFromName(name) {
     return index;
 }
 
-displayResult(getIndexFromName("Kiwi"));
-
 // The array 'fruits' contains a list of fruit names.
 // The function getIndexFromName takes a fruit name as a parameter and searches for its index in the fruits array.
 // It uses indexOf() to find the index, returning null if the fruit is not found.
